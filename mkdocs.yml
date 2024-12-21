@@ -1,0 +1,53 @@
+site_name: Wake Servers Knowledgebase
+site_url: https://wakeservers.com/mysite
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.tabs.link
+    - content.code.copy
+  palette: 
+    scheme: slate
+    primary: black
+    accent: green
+
+
+nav:
+  - Home: index.md
+  - BeamMP:
+      - BeamMP Home: beammp/index.md
+      - Installing Mods: beammp/installing-mods.md
+  - Assetto Corsa:
+      - Assetto Corsa Home: assetto-corsa/index.md
+      - Getting Started: assetto-corsa/getting-started.md
+      - Installing Mods and Tracks: assetto-corsa/installing-mods.md
+      - Configuring the Server: assetto-corsa/configuring-server.md
+      - Troubleshooting: assetto-corsa/troubleshooting.md
+
+
+
+
+
+
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+copyright: Copyright &copy; 2024 Wake Servers
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/XccgWUJVbP
+      name: Our Discord
