@@ -25,7 +25,7 @@ Here are some guides to help you get started quickly:
 
 - ### <a href="assetto-corsa" style="font-size: 1.25em; color: orange; text-decoration: none;"><code>Assetto Corsa Documentation</code></a> <img src="assets/assetto-corsa-pics/assetto-corsa-icon.png" alt="Assetto Corsa Icon" style="width: 60px; height: 60px; vertical-align: middle; margin-left: 10px;">
 
-
+- ### <a href="terraria" style="font-size: 1.25em; color: orange; text-decoration: none;"><code>Terraria Documentation</code></a> <img src="assets/terraria-pics/terraria-icon.png" alt="Assetto Corsa Icon" style="width: 100px; height: 60px; vertical-align: middle; margin-left: 10px;">
 
 ---
 

@@ -1,5 +1,5 @@
 
-# Installing Mods on Wake Servers BeamMP Server
+# Installing Mods On BeamMP Server
 
 Adding mods to your BeamMP server hosted on Wake Servers is a straightforward process. Follow these steps to ensure your mods are installed correctly and available for your players.
 
@@ -25,41 +25,8 @@ Adding mods to your BeamMP server hosted on Wake Servers is a straightforward pr
    ```
    > **Note**: If the `mods` folder doesn’t exist, create it manually.
 
----
-
-## **Step 3: Activate the Mod**
-
-1. Open the server's configuration file (`server-config.json`) using the **File Editor** in the game panel.
-2. Add the mod file name under the `mods` section:
-   ```json
-   "mods": [
-       "modname.zip"
-   ]
-   ```
-   Replace `modname.zip` with the exact name of the mod file.
-
-3. Save the changes and restart your server.
-
----
-
-## **Step 4: Test the Mod**
-
-1. Join your BeamMP server using the BeamMP client.
-2. Verify the mod is working by checking if:
-   - New vehicles, maps, or features from the mod are available in-game.
-   - No errors are displayed in the server console.
-
-> **Troubleshooting**: If the mod doesn’t load, double-check the file name and ensure it’s uploaded to the correct directory.
-
----
-
-## **Step 5: Share Mods with Players**
-
-1. Provide your players with a link to download the mod (if not auto-downloaded by the server).
-2. Encourage players to place the mod file in their local BeamNG directory:
-   ```
-   Documents/BeamNG.drive/mods/
-   ```
+!!! warning "Warning"
+    You can not upload more than ***`100mb`*** to the webpanel. In order to upload a high size file you must use ***`SFTP`*** under the ***`Settings Tab`*** of your server.
 
 ---
 

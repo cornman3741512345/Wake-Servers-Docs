@@ -26,10 +26,12 @@ nav:
       - Installing Mods: beammp/installing-mods.md
   - Assetto Corsa:
       - Assetto Corsa Home: assetto-corsa/index.md
-      - Getting Started: assetto-corsa/getting-started.md
-      - Installing Mods and Tracks: assetto-corsa/installing-mods.md
-      - Configuring the Server: assetto-corsa/configuring-server.md
-      - Troubleshooting: assetto-corsa/troubleshooting.md
+      - How to get "Servers" Tab in CM: assetto-corsa/getting-started.md
+      - How to add Cars: assetto-corsa/adding-cars.md
+      - How to change the Map: assetto-corsa/change-map.md
+  - Terraria:
+      - Terraria Home: terraria/index.md
+      - Terraria tModLoader: terraria/tModLoader.md
 
 
 
@@ -39,6 +41,7 @@ nav:
 
 markdown_extensions:
   - attr_list
+  - admonition
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
